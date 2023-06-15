@@ -1,0 +1,15 @@
+numpy
+einops
+pandas
+ptflops
+matplotlib
+psutil==5.6.7
+faiss_cpu==1.5.3
+tqdm==4.48.2
+Pillow==9.2.0
+scikit_learn==0.24.1
+torchscan==0.1.1
+googledrivedownloader==0.4
+requests==2.26.0
+timm==0.5.4
+transformers==4.8.2

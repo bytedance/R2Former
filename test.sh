@@ -1,0 +1,1 @@
+python3 -u train_reranker.py --dataset_name=msls --backbone deit --aggregation=gem --datasets_folder ../datasets_vg/datasets  --save_dir test --infer_batch_size 256 --resume CVPR23_DeitS_Rerank.pth --fc_output_dim 256 --rerank_model r2former --rerank_batch_size 4 --test
